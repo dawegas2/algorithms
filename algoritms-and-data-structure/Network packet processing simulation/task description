@@ -23,12 +23,8 @@ network packets. Each of the next 𝑛 lines contains two numbers. 𝑖-th line 
 sequence of arrival times is non-decreasing (however, it can contain the exact same times of arrival in
 milliseconds — in this case the packet which is earlier in the input is considered to have arrived earlier).
 
-Constraints. All the numbers in the input are integers. 1 ≤ 𝑆 ≤ 10^5
-; 0 ≤ 𝑛 ≤ 10^5
-; 0 ≤ 𝐴𝑖 ≤ 10^6
-;
-0 ≤ 𝑃𝑖 ≤ 103
-; 𝐴𝑖 ≤ 𝐴𝑖+1 for 1 ≤ 𝑖 ≤ 𝑛 − 1.
+Constraints. All the numbers in the input are integers. 1 ≤ 𝑆 ≤ 10^5; 0 ≤ 𝑛 ≤ 10^5; 0 ≤ 𝐴𝑖 ≤ 10^6;
+0 ≤ 𝑃𝑖 ≤ 10^3; 𝐴𝑖 ≤ 𝐴𝑖+1 for 1 ≤ 𝑖 ≤ 𝑛 − 1.
 
 Output Format. For each packet output either the moment of time (in milliseconds) when the processor
 began processing it or −1 if the packet was dropped (output the answers for the packets in the same
